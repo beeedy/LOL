@@ -1,0 +1,8 @@
+# ARAM Predict
+This is a project that ended up getting put indeffinetly on the back burner after it was left mining for an extended period of time. The idea behind this project was to try and figure out how 'random' the League of Legends game mode "**A**ll **R**andom, **A**ll **M**id" really is. Riot Games claims that this game mode is entirely random and there has been much debate in the community as to if this is true or not. Personally I began to see patterns in matches with opposing teams being comprised of similar champions that would lead to balanced matches. It is in Riot's best interest to make sure these matches are as balanced as possible to maximize the player's enjoyment. 
+
+Because of these points I had decided to go out and try to experiment and see if I would be able to predict the enemy team comp based off of our assigned team. This project is broken up into multiple files with various functions, and with various levels of completeness. 
+
+* aramRecorder.py is a script that when run will record a bunch of aram games that can later be used as training data for a chosen machine learning process. This script is mostly finished and is able to be successfully used and relied upon to gather game matchups. 
+* aramTrainer.py This script was intended to actually train a NN off of the training data gathered from aramRecorder.py. There was some initial work done but this script is mostly unfinished and is unable to complete the task of training a NN as it currently sits. 
+* aramPredictor.py This script simply does not exist, but was intended to be used to predict the enemy's team comp based off of your assigned champions. aramTrainer.py needs to be compeleted before this can even consider being worked on
